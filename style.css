@@ -1,0 +1,96 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-image: ;
+}
+
+/* Corpo da página */
+.content {
+  text-align: center;
+  background-color: #ffffff;
+  color: #333;
+  padding: 40px;
+}
+
+/* Cabeçalho */
+header {
+  text-align: center;
+  color: #999;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f4f4f4;
+  margin-top: 20px;
+}
+
+/* Cabeçalho */
+nav {
+  font-size: 2.5em;
+  color: #3e8e41; /* Verde */
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f4f4f4;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2.0em;
+  color: #3e8e41; /* Verde */
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.7em;
+  color: #c0392b; /* Vermelho */
+}
+
+/* Seção de conteúdo */
+.section {
+  text-align: center;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.justificado {
+  text-align: justify;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.main  {
+      text-align: center;
+}
+
+/* Botão */
+button {
+  background-color: #c0392b; /* Vermelho */
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #a93226;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 0.9em;
+  color: #999;
+  border-top: 2px solid #f4f4f4;
+}

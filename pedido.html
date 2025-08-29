@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página Inicial do Mangiare Ristorante">
+    <link rel='stylesheet' href="style.css" type='text/css'>
+    <title>Mangiare Ristorante</title>
+</head>
+<body>
+    <!-- cabeçalho -->
+    <header>        
+            <a href="index.html">Página Inicial |</a>
+            <a href="pedido.html#Pedido">Fazer o pedido agora |</a>
+            <a href="pedido.html#Preços">Consultar preços |</a>
+            <a href="menu.html#Entradas">Entradas |</a>
+            <a href="menu.html#Principais">Pratos Principais |</a>
+            <a href="menu.html#Sobremesas">Sobremesas </a>
+    </header>
+    
+    <nav>
+            <h1>Mangiare Ristorante</h1>
+    </nav>
+
+<!-- Corpo da página -->
+
+    <div class="section">
+        <aside>
+            <p id="Preços"></p>
+            <h3>Tabela de preços</h3>
+            <table class="justificado">
+
+                <thead>
+                    <tr>
+                        <th>Menu</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>                    
+
+                <tbody>
+                    <tr>
+                        <td><i>Entradas</i></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Bruschetta al Pomodoro</td>
+                        <td>$ 30</td>
+                    </tr>
+                    <tr>
+                        <td>Carpaccio di Manzo</td>
+                        <td>$ 40</td>
+                    </tr>
+                    <tr>
+                        <td>Arancini di Riso</td>
+                        <td>$ 50</td>
+                    </tr>
+
+                    <tr>
+                        <td><i>Pratos Principais</i></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td>Lasagna alla Bolognese</td>
+                        <td>$ 30</td>
+                    </tr>
+                    <tr>
+                        <td>Risotto ai Funghi Porcini</td>
+                        <td>$ 40</td>
+                    </tr>
+                    <tr>
+                        <td>Spaghetti alla Carbonara</td>
+                        <td>$ 50</td>
+                    </tr>
+
+                    <tr>
+                        <td><i>Sobremesas</i></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td>Tiramisù Tradizionale</td>
+                        <td>$ 30</td>
+                    </tr>
+                    <tr>
+                        <td>Panna Cotta alla Vaniglia</td>
+                        <td>$ 40</td>
+                    </tr>
+                    <tr>
+                        <td>Cannoli Siciliani</td>
+                        <td>$ 50</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </aside>
+    </div>
+
+    <div class="section">    
+        <main>
+            <p id="Pedido"></p>
+            <h3>Preencha o Formulário</h3><br>
+            <form action="">
+                <label for="Nome">Nome</label><br>
+                <input type="text" placeholder="Quem vai receber o pedido?" required>
+                
+                <br><br>
+                <label for="Telefone">Telefone</label><br>
+                <input type="number" placeholder="(99) 99999-9999" required>
+                
+                <br><br>
+                <label for="E-mail">E-mail</label><br>
+                <input type="email" placeholder="seu.email@provedor.com" required>
+                
+                <br><br>
+                <label for="Endereço">Endereço para entrega</label><br>
+                <input type="text" placeholder="Rua, número, Bairro, CEP" required>
+                
+                <br><br>
+                
+                Selecione os itens do seu pedido <br><br>
+                <label for="Entrada">Entrada</label><br>
+                <input type="checkbox" name="Bruschetta al Pomodoro" id="1">Bruschetta al Pomodoro <br>
+                <input type="checkbox" name="Carpaccio di Manzo" id="2">Carpaccio di Manzo <br>
+                <input type="checkbox" name="Arancini di Riso" id="3">Arancini di Riso <br>
+                
+                <br><br>                
+                <label for="Principal">Prato Principal</label><br>
+                <input type="checkbox" name="Lasagna alla Bolognese" id="4">Lasagna alla Bolognese <br>
+                <input type="checkbox" name="Risotto ai Funghi Porcini" id="5">Risotto ai Funghi Porcini <br>
+                <input type="checkbox" name="Spaghetti alla Carbonara" id="6">Spaghetti alla Carbonara <br>
+                
+                <br><br>
+                <label for="Sobremesa">Sobremesa</label><br>
+                <input type="checkbox" name="Tiramisù Tradizionale" id="7">Tiramisù Tradizionale <br>
+                <input type="checkbox" name="Panna Cotta alla Vaniglia" id="8">Panna Cotta alla Vaniglia <br>
+                <input type="checkbox" name="Cannoli Siciliani" id="9">Cannoli Siciliani <br>
+
+                <br><br>
+                <label for="Pedido">Tem algum pedido especial? </label><br>
+                <textarea name="Pedido Especial" placeholder="Exemplo: sem cebola, etc." required></textarea><br>
+
+                <div class="Button">
+                    <br>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                    <br>
+                </div>
+            </form>
+        </main>
+
+    </div>
+        <!-- rodapé -->
+
+    <div class="footer">
+        <footer>
+            Desenvolvido por Clarissa Prietsch Pirotti
+        </footer>
+    </div>
+
+</body>
+</html>
