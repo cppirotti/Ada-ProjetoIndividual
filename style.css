@@ -3,14 +3,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Helvetica Neue', sans-serif;
-  background-image: ;
+  font-family: 'Helvetica Neue', sans-serif;  
+}
+
+body {
+  background-image: url(https://github.com/cppirotti/Ada-ProjetoIndividual/blob/main/Assets/background.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Corpo da página */
 .content {
   text-align: center;
   background-color: #ffffff;
+  background-size: contain;
   color: #333;
   padding: 40px;
 }
@@ -44,6 +51,8 @@ h2 {
   font-size: 1.7em;
   color: #c0392b; /* Vermelho */
 }
+
+
 
 /* Seção de conteúdo */
 .section {
@@ -84,6 +93,10 @@ button {
 
 button:hover {
   background-color: #a93226;
+}
+
+.centralizar  {
+  text-align: center;
 }
 
 /* Rodapé */

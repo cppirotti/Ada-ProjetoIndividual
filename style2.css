@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Cabeçalho */
+
+header, li, ul {    
+    margin-top: 5px ;
+    margin-bottom: 5px; 
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #3e8e41;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 2px solid #f4f4f4;    
+    border-top: 2px solid #f4f4f4;
+}
+
+/* Estilização dos títulos */
+
+h1 {
+    font-size: 2.5em;
+    color: #3e8e41;
+    text-shadow: 2px 2px 4px #999;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.7em;
+    color: #c0392b;
+    text-shadow: 1px 1px 2px #999;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+/* Estilização de texto subtítulo */
+
+p {
+    font-size: 1.0em;
+    color: #999;
+    padding-top: 10px;
+}
+
+/* Cordo do texto (fundo)*/
+
+body {
+    background-image: url(Assets/background.jpg);
+    background-size: contain;    
+}
+
+/* Corpo do texto (Menu)*/
+
+.conteudo {
+    text-align: center;    
+    margin: 40px auto;
+    max-width: 600px;
+    padding: 30px;
+    color: #333;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    display: flex;    
+}
+
+/* Estilização de botões */
+
+button {    
+    background-color: #c0392b;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #999;
+}
+
+button:hover {
+    background-color: #a93226;
+}
+
+/* Rodapé */
+
+footer {
+    margin-top: 20px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 2px solid #f4f4f4;;
+    font-size: 14px;    
+    color: #ffffff;
+    background-color: #a93226; 
+}
+
+footer, .footer-dir, .footer-esq {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
