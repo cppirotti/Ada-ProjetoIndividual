@@ -135,3 +135,9 @@ footer, .footer-dir, .footer-esq {
     flex-wrap: nowrap;
     justify-content: space-between;
 }
+
+/* para todas as telas */
+
+@media (max-width: 320px) nav ul {
+  flex-direction: column;
+}
