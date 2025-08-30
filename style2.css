@@ -35,6 +35,7 @@ nav {
 /* Estilização dos títulos */
 
 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2.5em;
     color: #3e8e41;
     text-shadow: 4px 4px 6px #999;
@@ -64,8 +65,7 @@ p {
 
 body {
     background-image: url(Assets/back.jpg);
-    background-size: contain;
-    
+    background-size: contain;    
 }
 
 /* Corpo do texto (Menu)*/
@@ -79,6 +79,9 @@ body {
     background-color: #f4f4f4ec;
     border-radius: 8px;       
 }
+
+/* Corpo do texto (Home) */
+
 
 /* Estilização de botões */
 
@@ -101,8 +104,7 @@ button:hover, .button:hover {
 .botoes-home {
     display: flex;
     justify-content: center;
-    gap: 10px;
-        
+    gap: 10px;        
 }
 
 /* Elementos Tabela e Formulário */
