@@ -64,7 +64,8 @@ p {
 
 body {
     background-image: url(Assets/back.jpg);
-    background-size: contain;   
+    background-size: contain;
+    
 }
 
 /* Corpo do texto (Menu)*/
@@ -75,7 +76,7 @@ body {
     max-width: 600px;
     padding: 30px;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4ec;
     border-radius: 8px;       
 }
 
@@ -112,9 +113,11 @@ button:hover {
     text-align: justify;
 }
 
-.centralizado {
-    text-align: center;
+.tabela {
+    display: flex;
+    justify-content: center;
 }
+
 
 /* Rodapé */
 
