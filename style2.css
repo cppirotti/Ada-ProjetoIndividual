@@ -82,7 +82,7 @@ body {
 
 /* Estilização de botões */
 
-button {    
+button, .button {    
     background-color: #c0392b;
     color: #ffffff;
     border: none;
@@ -93,16 +93,14 @@ button {
     box-shadow: 2px 2px 2px #999;
 }
 
-button:hover {
+button:hover, .button:hover {
     background-color: #a93226;
     box-shadow: 2px 2px 2px 1px #999;
 }
 
 .botoes-home {
-    display: flex;    
-    align-content: center;
+    display: flex;
     justify-content: center;
-    justify-items: center;
     gap: 10px;
         
 }
